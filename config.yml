@@ -1,0 +1,9 @@
+---
+outputFile:
+  directory: /Users/alex/Documents/200ok/team/customers/li/asset_management/timetracking/
+  fileName: test-output.csv
+token: 869faf8fbbcab6fc278b83fadb8b2b4b
+workspace: 1135432
+project: 148987219
+since: "2019-03-01"
+until: "2019-03-31"
