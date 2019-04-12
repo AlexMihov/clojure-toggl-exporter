@@ -1,32 +1,22 @@
 # clojure-toggl-exporter
 
-FIXME: description
-
-## Installation
-
-Download from http://example.com/FIXME.
+A small tool which creates a CSV out of time entries in toggl.
+It is built in Clojure, which means that it can be made into a jar and
+can run on any machine that has java installed.
 
 ## Usage
 
-FIXME: explanation
+In the `config.yml` you need to enter your toggl token, the date
+range, project id, filename and directory first.
+
+To build the jar file out of this project you need to install [Leiningen](https://leiningen.org/)
+Afterwards run this command in the root of the repository.
+
+    lein uberjar
+
+Lastly you can use the program like this.
 
     $ java -jar clojure-toggl-exporter-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
 
 ## License
 
